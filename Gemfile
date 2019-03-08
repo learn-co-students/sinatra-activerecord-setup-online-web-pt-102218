@@ -6,7 +6,7 @@ source "https://rubygems.org"
     gem 'sinatra-activerecord'
     gem 'thin'
     gem 'require_all'
-    gem 'activerecord'
+     gem 'activerecord', '4.2.5'
  
     group :development do
         gem 'shotgun'
